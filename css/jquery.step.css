@@ -1,0 +1,87 @@
+
+*{margin: 0}
+.step-body{
+	position: relative;
+	
+	
+}
+.step-header{
+	width: 100%;
+	margin: 0 auto;
+	display: none;
+}
+.step-header ul{
+		padding: 0;
+}
+.step-header li{
+	list-style-type:none;
+	text-align: center;
+	float: left;
+	position: relative;
+}
+.step-header li p{
+	margin-top: 30px;
+	margin-bottom: 5px;
+	/* font-size: 14px; */
+	font-size: 20px;
+	font-family:  微软雅黑;
+	color: #757784;
+}
+.step-header li span{
+	position: relative;
+	margin: 0 auto;
+	font-size: 18px;
+	font-family: Arial;
+	color: #625454;
+	height: 25px;
+	line-height: 25px;
+	background: url("../img/cell.png") center center no-repeat;
+	display: block;
+}
+.step-header li.step-active span{
+	/*background: url("../img/cell-active.png") center center  no-repeat ;*/
+	background: url("../img/icon-dot-selected.svg") center center  no-repeat ;
+	color: white;
+}
+.step-header li.step-active-step span{
+	background: url("../img/cell-active-step.png") center center  no-repeat ;
+	color: white;
+}
+.step-header li.step-active p{
+	font-family: Inter-Bold, Inter;
+	font-weight: bold;
+	color: #1740FF;
+	font-size: 20px;
+}
+.step-header li.step-active-step p{
+	font-family: Inter-Bold, Inter;
+	/* font-weight: bold;
+	color: #1740FF; */
+}
+.step-bar,.step-bar-active{
+	height: 13px;
+	border-radius: 12px;
+}
+.step-bar{
+	width:100%;
+	background: url("../img/bar-bg.png") repeat-x ;
+	/* background-color: #DAD9D9;
+	border-radius: 2px 0px 0px 2px; */
+	position: relative;
+	
+    z-index: 0;
+    height: 5px;
+    top: 74px;
+}
+.step-bar-active{
+	width: 0px;
+	background: url("../img/bar-bg-active.png") repeat-x;
+	/* background-color: #1740FF;
+	border-radius:  0px 2px  2px 0px; */
+	height: 5px;
+
+}
+.step-list{
+	display: none;
+	clear: both;
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon-telegram</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="交互稿-2" transform="translate(-1292.000000, -1953.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="Footer" transform="translate(0.000000, 1899.000000)">
+                <g id="icon-telegram" transform="translate(1292.000000, 54.000000)">
+                    <path d="M18.578,20.422 L20.875,9.59400001 C21.078,8.64100002 20.531,8.26600001 19.906,8.5 L6.40599999,13.703 C5.48399999,14.062 5.5,14.578 6.25000001,14.812 L9.70299999,15.89 L17.719,10.843 C18.094,10.593 18.438,10.734 18.157,10.984 L11.673,16.843 L11.423,20.406 C11.782,20.406 11.939,20.25 12.126,20.062 L13.813,18.437 L17.313,21.015 C17.954,21.374 18.407,21.187 18.579,20.421 L18.578,20.422 Z M28,14 C28,21.734 21.734,28 14,28 C6.26599999,28 0,21.734 0,14 C0,6.26599999 6.26599999,0 14,0 C21.734,0 28,6.26599999 28,14 Z" id="形状"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

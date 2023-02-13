@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+<!-- Mirrored from www.spacen.xyz/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 13 Feb 2023 06:40:46 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="author" content="TechyDevs" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<meta name="keywords" content="All-in-one NFT">
+    	<meta name="description" content="All-in-one NFT">
+
+		<title>spaceN | All-in-one NFT management tool and NFT social space </title>
+
+		<!-- Favicon -->
+		<link rel="icon" sizes="16x16" href="img/favicon.png" />
+
+
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/font-awesome.min.css" />
+		<link rel="stylesheet" href="css/line-awesome.css" />
+		<link rel="stylesheet" href="css/animate.min.css" />
+		<link rel="stylesheet" href="css/owl.carousel.min.css" />
+		
+		<link rel="stylesheet" href="css/jquery.fancybox.css" />
+		<link rel="stylesheet" href="css/style_n.css" />
+		<link rel="stylesheet" href="css/jquery.step.css" />
+		<!-- end inject -->
+		<style>
+			.showMessage {
+				padding: 15px 20px;
+				border-radius: 5px;
+				position: fixed;
+				top: 45%;
+				left: 45%;
+				color: #ffffff;
+				z-index:2;
+			}
+
+			.showMessageSuccess {
+				font-size: 14px;
+				background-color: #383838;
+			}
+			.copy-info{
+				color:#fff;
+				font-size: 14px;
+				font-weight: normal;
+				display: none;
+				margin-left:10px;
+				line-height: 16px;
+				vertical-align: middle;
+
+				font-family:Inter, Inter-Bold;
+
+			}
+			.is-show{
+				display: inline-block;
+			}
+		</style>
+	</head>
+	<body>
+		<!-- start loading -->
+		<div id="loading">
+			<div id="loading-center">
+				<div id="loading-center-absolute">
+					<div class="object" id="object_one"></div>
+					<div class="object" id="object_two"></div>
+					<div class="object" id="object_three"></div>
+				</div>
+			</div>
+		</div>
+		<!-- end loading -->
+
+		<!-- START HEADER AREA -->
+		<section class="header-menu-area">
+			<div class="header-menu-fluid">
+				<div class="container">
+					<div class="row align-items-center menu-content">
+						<div class="col-lg-8">
+
+							<div class="logo-box" style="width: 180px;float: left;">
+								<a href="index-2.html" class="logo" title="Prizon"
+									><img
+										style="width: 120px; height: 32px;"
+										src="img/logo.svg"
+										alt="Prizon"
+								/></a>
+							</div>
+
+							<div class="menu-wrapper" style="float: left;margin-top: 6px;">
+								<nav class="main-menu">
+									<ul>
+										<li>
+											<a href="#">Home</a>
+										</li>
+
+										<li>
+											<a href="#Product">Product</a>
+										</li>
+										<li>
+											<a href="#Tokenomics">Tokenomics</a>
+										</li>
+										<li>
+											<a href="#Roadmap">Roadmap</a>
+										</li>
+
+
+									</ul>
+
+								</nav>
+							</div>
+						</div>
+						<!-- end col-lg-3 -->
+						<div class="col-lg-4" >
+							<div class="menu-wrapper">
+
+								<nav class="main-menu">
+									<ul>
+										<li>
+											<span style="float: left;margin-top: -1px;">
+												<img
+												style="width: 20px; height: 20px;margin-right: 5px;vertical-align: middle;"
+												src="img/icon-doc.svg"
+												alt="icon-doc"
+											/>
+											</span>
+											<a target="_blank" href="doc/SpaceN%20whitepaper.pdf" style="vertical-align: middle;">Whitepaper</a>
+											<!-- <span>
+												<img
+												style="width: 10px; height: 10px;margin-left: 5px;vertical-align: middle;"
+												src="img/icon-dropdown.svg"
+												alt="icon-dropdown"
+											/>
+											</span> -->
+										</li>
+									</ul>
+
+								</nav>
+								<div class="logo-right-button">
+									<ul>
+										<li class="button-box">
+
+											<a
+												target="_blank"
+												style="background-color: #1740FF;"
+												href="https://app.spacen.xyz/profile"
+												class="theme-btn"
+												>Get Started</a>
+
+										</li>
+									</ul>
+									<div class="side-menu-open">
+										<span class="menu__bar"></span>
+										<span class="menu__bar"></span>
+										<span class="menu__bar"></span>
+									</div>
+								</div>
+								<div class="side-nav-container">
+									<div class="humburger-menu">
+										<div
+											class="humburger-menu-lines side-menu-close"
+										></div>
+
+									</div>
+									<div class="side-menu-wrap">
+										<ul class="side-menu-ul">
+											<li class="sidenav__item">
+												<a href="index-2.html">home</a>
+											</li>
+											<li class="sidenav__item">
+												<a
+													class="divAnchors"
+													href="#Product"
+													>Product</a
+												>
+											</li>
+											<li class="sidenav__item">
+												<a
+													class="divAnchors"
+													href="#Tokenomics"
+													>Tokenomics</a
+												>
+											</li>
+											<li class="sidenav__item">
+												<a
+													class="divAnchors"
+													href="#Roadmap"
+													>Roadmap</a
+												>
+											</li>
+											<li class="sidenav__item">
+												<a target="_blank" href="doc/SpaceN%20whitepaper.pdf" style="vertical-align: middle;">Whitepaper</a>
+											</li>
+
+										</ul>
+										<div class="side-btn-box">
+
+											<a
+												target="_blank"
+												href="https://app.spacen.xyz/"
+												style="background-color: #fff;"
+												class="theme-btn"
+												>Get Started
+												</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- END HEADER AREA -->
+
+		<div class="section-block"></div>
+
+		<!-- All-in-one start-->
+		<section class="mobile-app-area section-padding-bottom" style="margin-top:110px;margin-bottom: 40px;">
+			<div class="container">
+				<div class="row">
+
+
+					<div class="col-lg-5">
+						<div class="app-content" style="position: relative;">
+							<div class="app-content-head-02" style="margin-bottom: 10px;">
+								<h2 class="app-bg-title" style="width:212px;text-align:center;">
+									All-in-one
+								</h2>
+							</div>
+
+							<div class="section-description" style="width: 100%;">
+								<p class="text-head-02">
+									NFT management tool and  <br/>
+									NFT social space.
+								</p>
+							</div>
+
+							<div class="get-token">
+								<div class="get-token-bg">
+									<img  style="width:190px;height:136px; "
+									src="img/img-dot-02.svg"
+									alt="img-dot-02"
+									/>
+								</div>
+								<div class="get-token-button">
+									<a
+									target="_blank" 
+									style="background-color: #1740FF;
+									width:200px; height:64px;
+									line-height: 64px;
+									text-align: center;"
+									href="https://www.gate.io/zh-tw/trade/SN_USDT"
+									class="theme-btn"
+									>Get Token
+									<!-- <i class="fa fa-long-arrow-right"  style="width:16px;height:12px;margin-left:5px; " ></i> -->
+									<img  style="width:26px;height:15px;"
+									src="img/icon-arrow.svg"
+									alt="icon-arrow"
+									/>
+								</a>
+								</div>
+
+							</div>
+
+
+
+						</div>
+					</div>
+
+					<div class="col-lg-7">
+						<div class="mobile-app-img mobile-app-img02 mobile-app-img03" style="float: right;">
+							<img class="img-dot-bg" style="width:200px;height:45px;
+							float:right;
+							margin-right: 67px;
+							margin-bottom: 5px;"
+							src="img/img-dot-01.svg"
+							alt="img-dot-01"
+							/>
+							<!-- <img  style="width:590px;height:425px;" src="img/img-big pic.png" alt="img-big pic" /> -->
+							<img  style="" src="img/img-big%20pic.png" alt="img-big pic" />
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+
+		</section>
+		<!-- All-in-one end-->
+		<div id="Product" style="height: 120px;"></div>
+		<!-- Manage NFTs at a glance start-->
+		<section  class="mobile-app-area section-padding-bottom" style="margin-top: 0px;" >
+			<div class="container">
+				<div class="row">
+
+
+					<div class="col-lg-6">
+						<div class="app-content">
+							<div class="section-heading">
+								<h2 class="section__title" style="margin-bottom:24px;">
+									Manage NFTs <br/>
+									at a glance
+								</h2>
+
+							</div>
+
+							<div class="section-description" >
+								<p class="section__desc">
+									Manage your NFT all in one place, tracking NFT value and activities. Master the investment performance with our key financial metrics.
+								</p>
+							</div>
+
+						</div>
+					</div>
+
+					<div class="col-lg-6">
+						<div class="mobile-app-img" style="text-align: right;">
+							<!-- <img  style="width:565px;height:460px;" src="img/img-managen fts@2x.png" alt="img-managen fts@2x" /> -->
+							<img  style="" src="img/img-managen%20fts%402x.png" alt="img-managen fts@2x" />
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+
+		</section>
+		<!-- Manage NFTs at a glance end-->
+
+		<!--  Grasp NFT Collection START-->
+		<section class="mobile-app-area section-padding-bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="mobile-app-img">
+							<!-- <img  style="width:518px;height:420px;" src="img/image-grasp nft@2x.png" alt="image-grasp nft@2x" /> -->
+							<img  style="" src="img/image-grasp%20nft%402x.png" alt="image-grasp nft@2x" />
+						</div>
+					</div>
+
+					<div class="col-lg-6">
+						<div class="app-content">
+							<div class="section-heading">
+								<h2 class="section__title" style="margin-bottom:24px;">
+									Grasp NFT Collections<br/>
+									at the first time
+								</h2>
+
+							</div>
+
+							<div class="section-description">
+								<p class="section__desc">
+									Bring all NFT Collections insights you need by ranking, trade data, whales tracking, social media news and more. Spotting premium NFT alpha by aggregate multiple sources of information.
+								</p>
+							</div>
+
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+
+		</section>
+		<!-- Grasp NFT Collection END -->
+
+		<!-- NFT Club start-->
+		<section class="mobile-app-area section-padding-bottom">
+			<div class="container">
+				<div class="row">
+
+
+					<div class="col-lg-6">
+						<div class="app-content">
+							<div class="section-heading">
+								<h2 class="section__title" style="margin-bottom:24px;">
+									NFT Club
+								</h2>
+
+							</div>
+
+							<div class="section-description" >
+								<p class="section__desc">
+									Depending on the type of NFT youhold, SpaceN will automatically recommend clubs that suits you, join <br/>
+									the club, and set up your own online and offline <br/>
+									activities.
+								</p>
+							</div>
+
+						</div>
+					</div>
+
+					<div class="col-lg-6">
+						<div class="mobile-app-img" style="text-align: right;">
+							<!-- <img  style="width:545px;height:470px;" src="img/image-nft club@2x.png" alt="image-grasp nft@2x" /> -->
+							<img src="img/image-nft%20club%402x.png" alt="image-grasp nft@2x" />
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+
+		</section>
+		<!-- NFT Club end-->
+
+
+		<!---The Space to build your DAO start--->
+		<section class="mobile-app-area section-padding-bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-7">
+						<div class="mobile-app-img mobile-app-img01" >
+							<!-- <img style="width:563px;height:360px;" src="img/image-the space@2x.png" alt="image-the space@2x" /> -->
+							<img style="" src="img/image-the%20space%402x.png" alt="image-the space@2x" />
+						</div>
+					</div>
+
+					<div class="col-lg-5">
+						<div class="app-content">
+							<div class="section-heading">
+								<h2 class="section__title" style="margin-bottom:24px;">
+									The Space to build <br/>
+									your DAO
+								</h2>
+
+							</div>
+
+							<div class="section-description">
+								<p class="section__desc">
+									The space for you to build DAO. Discuss your favorite NFT topics and even mint your own NFT Collections.
+								</p>
+							</div>
+
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+
+		</section>
+		<!---The Space to build your DAO end--->
+
+		<div class="section-block"></div>
+
+		<!-- END TEAM AREA -->
+		<a name="team" href="#"></a>
+
+		<!-- Tokenomics start-->
+		<section id="Tokenomics" class="funfact-area section--padding text-center" style="background-color: #F3F4FA;" >
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 mx-auto">
+						<div class="section-heading">
+							<a href="javascript:void(0)">
+								<h2 class="section__title ">
+									Tokenomics
+								</h2>
+							</a>
+							<div class="section-divider mx-auto"></div>
+						</div>
+
+					</div>
+				</div>
+
+				<div class="row section-info-wrap" style="">
+					<div class="col-lg-5 mx-auto">
+						<div class="section-info-left" style="">
+							<div class="section-info-left-cont" style="padding-left:40px;padding-top:46px;">
+								<div class="left-cont-list row">
+									<div class="col-lg-7">
+										<div class="list_title01">
+											SN
+										</div>
+										<div class="list_desc01">
+											Governance Token
+										</div>
+									</div>
+
+
+									<div class="col-lg-5">
+										<div class="list_desc_img list_desc_img_mb" style="position: relative;">
+											<img style="
+											width: 100px;
+											height: 46px;
+											position: absolute;
+											top: 0px;
+											left: -15px;"
+											src="img/icon-dot-tokenomics%402x.png"
+											alt="icon-dot-tokenomics@2x" />
+										</div>
+									</div>
+
+
+								</div>
+								<div class="left-cont-list" >
+									<div class="list_title01">
+										1 Billion
+									</div>
+									<div class="list_desc01">
+										Minted Amount
+									</div>
+								</div>
+								<div class="left-cont-list" style="margin-bottom:20px;">
+									<div class="" style="    margin-bottom: 10px;">
+										<span class="list_title02" style="vertical-align: middle;">0x939D…2F9C</span>
+										<img id="refresh3" style="cursor: pointer;vertical-align: middle;" class="copy-icon-01" src="img/icon-copy.svg" alt="icon-copy" />
+										<span class="copy-info">Copied</span>
+									</div>
+									<div class="list_desc01">
+										Contract Address
+									</div>
+								</div>
+								<div class="left-cont-list">
+									<div class="list_desc_img" style="text-align:right;">
+										<img style="width:204px;height:188px;" src="img/image-SN%402x.png" alt="image-SN@2x" />
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-7 mx-auto">
+						<div class="section-info-right">
+							<div class="section-info-right-cont">
+								<div class="right-cont-title">
+									Token Utility
+								</div>
+
+								<div class="row">
+									<div class="col-lg-6">
+										<div class="right-cont-list">
+											<div class="right-cont-item">
+												<div class="right-cont-item-img">
+													<img style="width:32px;height:32px;" src="img/icon-community%402x.png" alt="icon-community@2x" />
+												</div>
+
+												<div class="right-cont-item-desc">
+													SpaceN Community Governance
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-4">
+										<div class="right-cont-list">
+											<div class="right-cont-item">
+												<div class="right-cont-item-img">
+													<img style="width:32px;height:32px;" src="img/icon-burn%20sn%402x.png" alt="icon-burn sn@2x" />
+												</div>
+
+												<div class="right-cont-item-desc">
+													Burn SN to open Creator Space
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="row">
+									<div class="col-lg-6">
+										<div class="right-cont-list">
+											<div class="right-cont-item">
+												<div class="right-cont-item-img">
+													<img style="width:32px;height:32px;" src="img/icon-create%20dao%402x.png" alt="icon-create dao@2x" />
+												</div>
+
+												<div class="right-cont-item-desc">
+													Create subDAO by staking SN
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-4">
+										<div class="right-cont-list">
+											<div class="right-cont-item">
+												<div class="right-cont-item-img">
+													<img style="width:32px;height:32px;" src="img/icon-alarmclock%402x.png" alt="icon-alarmclock@2x" />
+												</div>
+
+												<div class="right-cont-item-desc">
+													Pay SN to subscribe Creator Space
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="row">
+									<div class="col-lg-12">
+										<div class="right-cont-list">
+											<div class="right-cont-item">
+												<div class="right-cont-item-img">
+													<img style="width:32px;height:32px;" src="img/icon-people%402x.png" alt="icon-people@2x" />
+												</div>
+
+												<div class="right-cont-item-desc" style="width: 85%;">
+													Community incentives. Reward community member who provide highquality project information, and community developers who contribute to the promotion of SpaceN.
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<div class="container">
+				<div class="chart_color" style="">
+					<div class="chart_color_item item_w_01 chart_bg01" ></div>
+					<div class="chart_color_item item_w_02 chart_bg02"></div>
+					<div class="chart_color_item item_w_03 chart_bg03"></div>
+					<div class="chart_color_item item_w_04 chart_bg04"></div>
+					<div class="chart_color_item item_w_05 chart_bg05"></div>
+				</div>
+
+				<div class="chart_text" style="margin-top:8px;">
+					<div class="chart_text_item item_w_01 chart_text01">
+						<div class="chart_title">60%</div>
+						<div class="chart_desc">Incentive</div>
+					</div>
+					<div class="chart_text_item item_w_02 chart_text02">
+						<div class="chart_title">12%</div>
+						<div class="chart_desc">Team</div>
+					</div>
+					<div class="chart_text_item item_w_03 chart_text03">
+						<div class="chart_title">8%</div>
+						<div class="chart_desc">Marketing</div>
+					</div>
+					<div class="chart_text_item item_w_04 chart_text04">
+						<div class="chart_title">10%</div>
+						<div class="chart_desc">Investors</div>
+					</div>
+					<div class="chart_text_item item_w_05 chart_text05">
+						<div class="chart_title">10%</div>
+						<div class="chart_desc">Foundation</div>
+					</div>
+				</div>
+			</div>
+
+		</section>
+		<!-- Tokenomics end-->
+
+		<!-- Roadmap start -->
+		<section id="Roadmap" class="section--padding text-center roudmap-area" style="background-color: #fff;padding-bottom: 0px;">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 mx-auto">
+						<div class="section-heading text-center">
+							<h2 id="community" class="section__title">
+								Roadmap
+							</h2>
+							<div class="section-divider mx-auto"></div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="roadmap_chart" style="background-color: #fff; height:100px;">
+					<div class="step-body" id="myStep">
+						<div class="step-header" style="">
+							<ul>
+								<li><p>2022 Q1</p></li>
+								<li><p>2022 Q2</p></li>
+								<li><p>2022 Q3</p></li>
+								<li><p>2022 Q4</p></li>
+							</ul>
+						</div>
+						<div class="step-content" style="display: none;">
+							<div class="step-list">2022 Q1</div>
+							<div class="step-list">2022 Q2</div>
+							<div class="step-list">2022 Q3</div>
+							<div class="step-list">2022 Q4</div>
+						</div>
+
+					</div>
+
+					<div class="step-cont" style="display: none; z-index:999;">
+					<button id="preBtn">上一步</button>
+					<button id="nextBtn">下一步</button>
+					</div>
+				</div>
+				<div class="roudmap_chart_text">
+					<div class="roudmap_chart_text_wrap">
+						<div class="row">
+							<div class="col-lg-3 chart_cont_item">
+								<div class="chart_text_desc">
+									Develop NFT asset management module. <br/>
+									Develop NFT valuation model. <br/>
+									Develop NFT project party data tracking analysis module.
+
+								</div>
+
+							</div>
+							<div class="col-lg-3 chart_cont_item">
+								<div class="chart_text_desc">
+									Release the NFT data module.<br/>
+									Upgrade NFT data interface.<br/>
+									Upgrade NFT valuation analysis model.
+
+								</div>
+
+							</div>
+							<div class="col-lg-3 chart_cont_item">
+								<div class="chart_text_desc">
+									Account multi-address adaptation.<br/>
+									Develop Club module NFT gating system. 
+								</div>
+
+							</div>
+							<div class="col-lg-3 chart_cont_item">
+								<div class="chart_text_desc">
+									Release the Social Module.
+								</div>
+
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+		</section>
+		<!------>
+		<!-- Partners start -->
+		<section id="Partners" class="section--padding text-center partners-area" style="background-color: #fff;padding-bottom: 120px;padding-top: 110px;">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 mx-auto">
+						<div class="section-heading text-center">
+							<h2 id="community" class="section__title">
+								Partners
+								
+							</h2>
+							<div class="section-divider mx-auto"></div>
+						</div>
+						
+					</div>	
+				</div>
+			</div>
+
+			<div  class="container">
+				<div class="client-logo owl-loaded owl-carousel">
+					<div class="owl-stage-outer">
+					  <div
+						class="owl-stage"
+						
+					  >
+						<div class="owl-item cloned" style="width: 160px">
+						  <div class="client-logo-item">
+							<img src="img/partners/gateio%402x.png" alt="brand image" />
+						  </div>
+						</div>
+						<div class="owl-item cloned" style="width: 160px">
+						  <div class="client-logo-item">
+							<img src="img/partners/gatelabs%402x.png" alt="brand image" />
+						  </div>
+						</div>
+						<div class="owl-item cloned" style="width: 160px">
+						  <div class="client-logo-item">
+							<img src="img/partners/acapital%402x.png" alt="brand image" />
+						  </div>
+						</div>
+						<div class="owl-item cloned" style="width: 160px">
+						  <div class="client-logo-item">
+							<img src="img/partners/edgelab%402x.png" alt="brand image" />
+						  </div>
+						</div>
+						<div class="owl-item cloned" style="width: 160px">
+							<div class="client-logo-item">
+							  <img src="img/partners/blackhole%402x.png" alt="brand image" />
+							</div>
+						</div>
+						<div class="owl-item cloned" style="width: 160px">
+							<div class="client-logo-item">
+							  <img src="img/partners/yearn%402x.png" alt="brand image" />
+							</div>
+						</div>
+						<div class="owl-item cloned" style="width: 160px">
+							<div class="client-logo-item">
+							  <img src="img/partners/ultrafluid%402x.png" alt="brand image" />
+							</div>
+						</div>
+						
+						
+					  </div>
+					</div>
+				  
+				  </div>
+
+				  
+			</div>
+		</section>
+		<!--- Partners end--->
+
+		<!-- footer start -->
+		<section class="footer-area-02">
+			<div class="container">
+				<div class="row" style="margin-bottom:35px;">
+					<div class="col-lg-10 col-sm-6 footer-cont-item">
+						<div class="footer-item">
+							<div class="logo">
+								<a href="index-spaceN.html" class="foot-logo">
+									<img style="width:120px;height:48px;" src="img/logo-02.svg" alt="logo">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-2 col-sm-6  footer-cont-item">
+						<div class="footer-item">
+							<div class="footer-social">
+								<ul>
+									<li>
+										<a target="_blank" href="https://medium.com/@spacenNFT">
+											<img class="footer-icon-list" src="img/icon-medium.svg" alt="icon-medium">
+										</a>
+									</li>
+									<li>
+										<a target="_blank" href="https://twitter.com/spacenNFT">
+											<img class="footer-icon-list" src="img/icon-twitter.svg" alt="icon-twitter">
+										</a>
+									</li>
+
+									<li>
+										<a target="_blank" href="https://discord.gg/DCRjedrUgm" >
+											<img class="footer-icon-list" src="img/icon-discord.svg" alt="icon-discord">
+										</a>
+									</li>
+									<li>
+										<a target="_blank" href="https://t.me/spacenNFT" >
+											<img class="footer-icon-list" src="img/icon-telegram.svg" alt="icon-telegram">
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="copy-right">
+						<p class="copy_desc">
+							 &copy; Copyright, 2022 SpaceN. All rights reserved.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--  end FOOTER AREA  -->
+
+		<!-- start scroll top -->
+		<div id="scroll-top">
+			<i class="fa fa-angle-up" title="Go top"></i>
+		</div>
+		<!-- end scroll top -->
+
+		<!-- theme js files -->
+		<script src="js/jquery-1.10.2.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+
+		<script src="js/main.js"></script>
+		<script src="js/jquery.step.js"></script>
+
+
+		<script type="text/javascript">
+			//点击按钮弹出提示
+			$(function () {
+
+			  $(".refresh1").click(function () {
+				//showMessage("Coming Soon",1);
+
+			  });
+		  
+			//   $("#refresh2").click(function () {
+			// 	showMessage("Coming Soon",0);
+			//   });
+
+			  $("#refresh3").click(function () {
+				var _text = '0x939Dd9E433552e325D78C33a16EF4cD8004D2F9C';
+
+				$(".copy-info").addClass("is-show");
+				window.setTimeout(function () {
+					$(".copy-info").removeClass("is-show");
+				}, 2000);
+				if (navigator.clipboard) {
+					navigator.clipboard.writeText(_text);
+					// callback && callback(true);
+					return true;
+				}
+
+				// showMessage("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Copied &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",1);
+			  });
+			});
+
+			function showMessage(message, type) {
+			  let messageJQ = $("<div class='showMessage'>" + message + "</div>");
+			  if (type == 0) {
+				//messageJQ.addClass("showMessageError");
+				messageJQ.addClass("showMessageSuccess");
+			  } else if (type == 1) {
+				messageJQ.addClass("showMessageSuccess");
+			  }
+			  //messageJQ.hide().appendTo("body").slideDown(600);
+			  messageJQ.hide().appendTo("body").show();
+			  window.setTimeout(function () {
+				messageJQ.remove();
+			  }, 2000);
+			}
+
+		  </script>
+
+	</body>
+
+<!-- Mirrored from www.spacen.xyz/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 13 Feb 2023 06:40:46 GMT -->
+</html>
